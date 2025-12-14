@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+
+  background: #f4f4f4;
+  color: #111;
+  background-image: url(https://images.pexels.com/photos/2426074/pexels-photo-2426074.jpeg);
+  background-size: cover;
+}
+.a{
+  font-size: 50px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1px 5%;
+  position: relative;
+}
+.links {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+img.b{
+  border-radius: 20px;
+}
+img.x{
+  border-radius: 20px;
+}
+.a1{
+  padding: 60px;      
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.a2 {
+  width: 60%;
+  max-width: 1100px;
+  background: #fff;
+  padding: 48px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 10px 14px rgba(0,0,0,0.18);
+  border-radius: 10px;
+}
+.a3{
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.a4{
+  width: 190px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.a5{
+  max-width: 60%;
+}
+footer{
+  color: #f4f4f4;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

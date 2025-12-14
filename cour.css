@@ -1,0 +1,54 @@
+.navbar {
+  font-size: 30px;
+  background: transparent;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: rgba(255,255,255,0.95);
+}
+
+.navbar .nav-link:hover {
+  color: #f0f0f0;
+  backdrop-filter: blur(10px);
+}
+
+.center-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.center-box {
+  margin-top: 120px;        /* just enough to clear navbar */
+  width: 100%;
+  max-width: 1100px;
+  background: rgba(255,255,255,0.95);
+  color: #222;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+  padding: 50px;
+  height: 1100px;
+  overflow: visible;       /* allow content to grow */
+}
+#op{
+    text-align: center;
+}
+
+
+body {
+  background-image: url("https://images.pexels.com/photos/2426074/pexels-photo-2426074.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin-top: 100px;
+}
+footer{
+  color: #f4f4f4;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
